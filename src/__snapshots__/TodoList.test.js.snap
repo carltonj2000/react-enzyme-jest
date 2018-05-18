@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> matches snapshot 1`] = `
+<React.Fragment>
+  <ul>
+    <li
+      key="0"
+      onClick={[Function]}
+    />
+    <li
+      key="1"
+      onClick={[Function]}
+    />
+    <li
+      key="2"
+      onClick={[Function]}
+    />
+  </ul>
+  <input
+    onChange={[Function]}
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Add Todo
+  </button>
+</React.Fragment>
+`;

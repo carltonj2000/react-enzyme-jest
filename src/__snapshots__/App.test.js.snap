@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> mount rendering matches the snapshot 1`] = `
+<App>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <div
+      className="App"
+    >
+      <header
+        className="App-header"
+      >
+        <img
+          alt="logo"
+          className="App-logo"
+          src="logo.svg"
+        />
+        <h1
+          className="App-title"
+        >
+          Welcome to React
+        </h1>
+      </header>
+      <p
+        className="App-intro"
+      >
+        To get started, edit 
+        <code>
+          src/App.js
+        </code>
+         and save to reload.
+      </p>
+      <Title
+        text="hi cj"
+      >
+        <div>
+          hi cj
+        </div>
+      </Title>
+      <ul
+        className="Carlton"
+      >
+        <li>
+          One
+        </li>
+        <li>
+          Two
+        </li>
+        <li>
+          Three
+        </li>
+      </ul>
+      <Test>
+        <div>
+          Testing
+        </div>
+      </Test>
+      <button
+        onClick={[Function]}
+      >
+        No!
+      </button>
+      <h2
+        className="title"
+      >
+        Start
+      </h2>
+      <input
+        onChange={[Function]}
+      />
+      <div
+        className="blue"
+      >
+        hi
+      </div>
+      <div
+        className="lifeCycle"
+      >
+        componentDidMount
+      </div>
+      <Connect(TodoList)>
+        <TodoList
+          addTodo={[Function]}
+          removeTodo={[Function]}
+          todos={Array []}
+        >
+          <ul />
+          <input
+            onChange={[Function]}
+            value=""
+          />
+          <button
+            onClick={[Function]}
+          >
+            Add Todo
+          </button>
+        </TodoList>
+      </Connect(TodoList)>
+      <Form>
+        <form
+          data-testid="addUserForm"
+          onSubmit={[Function]}
+        >
+          <input
+            data-testid="name"
+            onChange={[Function]}
+            value=""
+          />
+          <input
+            data-testid="email"
+            onChange={[Function]}
+            value=""
+          />
+          <input
+            data-testid="phone"
+            onChange={[Function]}
+            value=""
+          />
+          <input
+            checked={true}
+            data-testid="optIn"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <button
+            data-testid="submitButton"
+            onClick={[Function]}
+          >
+            Submit
+          </button>
+        </form>
+      </Form>
+    </div>
+  </Provider>
+</App>
+`;
+
+exports[`<App /> shallow rendering matches the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h1
+        className="App-title"
+      >
+        Welcome to React
+      </h1>
+    </header>
+    <p
+      className="App-intro"
+    >
+      To get started, edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <Title
+      text="hi cj"
+    />
+    <ul
+      className="Carlton"
+    >
+      <li>
+        One
+      </li>
+      <li>
+        Two
+      </li>
+      <li>
+        Three
+      </li>
+    </ul>
+    <Test />
+    <button
+      onClick={[Function]}
+    >
+      No!
+    </button>
+    <h2
+      className="title"
+    >
+      Start
+    </h2>
+    <input
+      onChange={[Function]}
+    />
+    <div
+      className="blue"
+    >
+      hi
+    </div>
+    <div
+      className="lifeCycle"
+    >
+      componentDidMount
+    </div>
+    <Connect(TodoList) />
+    <Form />
+  </div>
+</Provider>
+`;
